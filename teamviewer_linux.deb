@@ -1,0 +1,604 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+
+	<title >TeamViewer - Free Remote Control, Remote Access & Online Meetings</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+	<meta name="description" content="Software for Remote Support, Remote Access, Remote Administration, Home Office and Online Meetings. For Windows, Mac, Linux, iPhone, iPad, Android and Windows Phone 8." />
+
+
+<link rel="alternate" type="application/rss+xml" title="TeamViewer News (English)" href="http://feeds.teamviewer.com/en/company/newsfeed.aspx" />
+
+
+	<meta property="og:title" content="TeamViewer – Access your computer remotely and share your desktop with friends – it’s free!" />
+
+
+	<meta property="og:description" content="Remote Control any computer within seconds as if you were sitting right in front of it and host online meetings and presentations easily over the internet. Find out why more than 200 million users trust TeamViewer!" />
+
+<meta property="og:image" content="http://www.teamviewer.com/images/opengraph/teamviewer-icon200x200.png" />
+<meta property="og:image:secure_url" content="https://www.teamviewer.com/images/opengraph/teamviewer-icon200x200.png" />
+
+
+		<link rel="stylesheet" type="text/css" href="/styles/styles-startpage-optimized_min.css?v35" />
+	
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/styles/ie/styles-ie7.css?v31" />
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="/styles/ie/styles-ie6.css?v32" />
+<![endif]-->
+
+
+
+
+
+	<script type="text/javascript" src="/res/scripts/InteractWithWebservice.js"></script>
+	<script src="/res/scripts/OSDetection.js?v7" type="text/javascript"></script>
+	
+	<meta property="fb:page_id" content="170086771112" />
+	<!-- folgender Tag für Google Webmastertools benötigt -->
+	<meta name="verify-v1" content="fGihnw873c0oZnK4MkHAvi6/MHcblpjqVHh3ENn7F/I=" />
+	<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+
+	<style type="text/css">
+		.download-text {
+			font-size: 22px;
+			letter-spacing: 0;
+			line-height: 24px;
+			padding: 15px 29px 18px 70px;
+		}
+
+		.download-text-small {
+			font-size: 13px;
+		}
+	</style>
+
+	<style type="text/css" media="(min-width:1240px)">
+		#hiring {
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			width: 172px;
+			height: 113px;
+			background: url(../styles/hiring-small-en.png) no-repeat left top;
+			z-index: 9999;
+		}
+
+		#hiring:hover {
+			width: 230px;
+			height: 158px;
+			background: url(../styles/hiring-small-en.png) no-repeat left bottom;
+		}
+	</style>
+
+	<!--[if lt IE 9]>
+		<style type="text/css">
+			#header-1 .cssGradient {background:url(/styles/startpage-bg-header-big.png) repeat-x bottom;}
+		</style>
+	<![endif]-->
+	<!--[if lt IE 7]>
+		<script defer type="text/javascript" src="/styles/ie/menufix-pngfix.mod.js"></script>
+	<![endif]-->
+
+	<style type="text/css">
+		#bgHeader, #startpageBottomImage {
+			background: none;
+		}
+		#headContentVideo {
+			position: absolute;
+			right: 25px;
+			top: 50px;
+		}
+		#headerVideo img {
+			width: 480px;
+			border: 6px solid #fff;
+			border-radius: 10px;
+		}
+		.play {
+			display: block;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			background:url('data:image/png;base64,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') no-repeat;
+			background-position:center center;
+		}
+		.play:hover {
+			background:url('data:image/png;base64,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') no-repeat;
+			background-position:center center;
+		}
+	</style>
+</head>
+<body onload="setTimeout('InfBar()', 80);">
+	
+
+	<script type="text/javascript" src="https://www.teamviewer.com/res/scripts/TvGoogleAnalytics.js?v=5"></script>
+
+	<script>dataLayer = [{
+  "urlCleanPath": TvGetUrlPath()
+}, {}];</script>
+
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5R286M"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+	<script>(function (w, d, s, l, i) {w[l] = w[l] || []; w[l].push({'gtm.start':new Date().getTime(), event: 'gtm.js'}); var f = d.getElementsByTagName(s)[0],j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src ='//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);})(window, document, 'script', 'dataLayer', 'GTM-5R286M');</script>
+
+
+<div id="menuIOS" onclick="">
+<form name="Form1" method="post" action="index.aspx" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="hxC8rlG6gH47Yqzlb2FVsvfcFhL2lMJhlXKrectkeWlr+gsvirNpAkpIMl4+1B0R0ZiwTid2P3Sp6jJK9LoIXJfeeS0=" />
+
+
+<script src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yEpQC5XtfxBypNpsehKo6LQoHNwX69sg1GAZ1fQvcItW5tkC7WADKrdyhntTPoqbWF9cmNzXCI30bSRflRErB6dEIGoE9tusW50MXGx-LbN8AmGCvLsWhVHKaverMpyI0cy9s5U1&amp;t=ffffffff88e65ea0" type="text/javascript"></script>
+<script src="../GenericStatisticsWS.asmx/js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FE4EB332" />
+
+</form>
+
+<div id="infobar" style="background-color:#8DBC22;color:white;border-bottom:1px solid black;position:relative;top:-53px;padding:16px;text-align:center;font-size:16px;">
+	New: TeamViewer 11! Up to 30% greater efficiency and 15x faster file transfers, improved toolbar, Chrome OS, and more – <a style="color:White;" href="download/currentversion.aspx">further details</a>
+</div>
+
+
+<script type="text/javascript" src="/res/scripts/topline.js"></script>
+
+<div id="topline">
+	<div id="toplineContent">
+		<a href="http://www.teamviewer.com"><span id="tvlogoNew"></span></a>
+		<div id="toplineContentRight">
+			<div id="toplineContentRightTop">
+				<div id="linkedIcons">
+					<a href="https://plus.google.com/101315094374188414722?prsrc=3" rel="publisher" target="_blank"><span id="googlePlusIcon"></span></a>
+					<a href="http://twitter.com/teamviewer" target="_blank"><span id="twitterIcon"></span></a>
+					<a href="http://www.facebook.com/teamviewer" target="_blank"><span id="facebookIcon"></span></a>
+					<a href="http://feeds.teamviewer.com/en/company/newsfeed.aspx" target="_blank"><span id="rssFeedIcon"></span></a>
+				</div>
+				<div id="lsContainer">
+
+<script type="text/javascript">
+	function changeLanguage(loc) {
+		var pString = "/press/";
+		var pIndex = document.URL.indexOf(pString);
+		if (pIndex > -1)
+			window.location = window.location.href.replace( /\/en\//i , '/' + loc.options[loc.selectedIndex].value + '/').substring(0, (pIndex + pString.length)) + "index.aspx";
+		else 
+			window.location = window.location.href.replace( /\/en\//i , '/' + loc.options[loc.selectedIndex].value + '/');
+		expireDate = new Date();
+		expireDate.setTime(expireDate.getTime() + (86400000)); // 1 Tag
+		document.cookie = "language=" + loc.options[loc.selectedIndex].value + "; expires=" + expireDate.toUTCString() + "; path=/";
+	}
+</script>
+
+<select class="language_select" onchange="changeLanguage(this)">
+	
+	<option value="ar" dir="rtl">العربية</option>
+	
+	<option value="id">Bahasa Indonesia</option>
+	
+	<option value="cs">Česky</option>
+	
+	<option value="da">Dansk</option>
+	
+	<option value="de">Deutsch</option>
+	
+	<option value="en" selected="selected">English</option>
+	
+	<option value="es">Español</option>
+	
+	<option value="fr">Français</option>
+	
+	<option value="hr">Hrvatski</option>
+	
+	<option value="hi">Indian</option>
+	
+	<option value="it">Italiano</option>
+	
+	<option value="lt">Lietuvių</option>
+	
+	<option value="hu">Magyar</option>
+	
+	<option value="nl">Nederlands</option>
+	
+	<option value="no">Norsk</option>
+	
+	<option value="pl">Polski</option>
+	
+	<option value="pt">Português</option>
+	
+	<option value="ro">Română</option>
+	
+	<option value="sk">Slovenčina</option>
+	
+	<option value="sr">Srpski</option>
+	
+	<option value="fi">Suomi</option>
+	
+	<option value="sv">Svenska</option>
+	
+	<option value="vi">Tiếng Việt</option>
+	
+	<option value="tr">Türkçe</option>
+	
+	<option value="el">Ελληνικά</option>
+	
+	<option value="bg">Български</option>
+	
+	<option value="uk">Українська</option>
+	
+	<option value="ru">Русский</option>
+	
+	<option value="he" dir="rtl">עברית‏</option>
+	
+	<option value="th">ไทย</option>
+	
+	<option value="ko">한국어</option>
+	
+	<option value="zhTW">中文 (台灣)</option>
+	
+	<option value="zhCN">中文 (简体)</option>
+	
+	<option value="ja">日本語</option>
+	
+</select>
+
+</div>
+				<div class="arrowSmall"></div>
+				<div id="weblogin"><a href="https://login.teamviewer.com" title="Login Management Console">Web Login</a></div>
+			</div>
+			
+			
+					<div id="menu" class="en-menuWidth">
+						<ul id="mainmenuList">
+				
+					<li id="submenu1">
+						<div class="hoverpadding"></div>
+						<ul>
+							
+									<li><a href="https://www.teamviewer.com/en/company/index.aspx" class=" submenuFirst">Contact</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/company/company.aspx">Company</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/news/index.aspx">News</a></li>
+								
+									<li><a href="/en/company/register.aspx">Newsletter</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/press/index.aspx">Press Room</a></li>
+								
+									<li><a href="https://blog.teamviewer.com" target="_blank">Blog</a></li>
+								
+									<li class="submenuLast"><a href="/en/jobs/index.aspx" class=" submenuLast">Jobs</a></li>
+								
+						</ul>
+						<a id="mainmenu1" aria-haspopup="true" class=''>About Us </a>
+						<script type="text/javascript">
+							linkMainmenu(isTouch, 'mainmenu1', 'https://www.teamviewer.com/en/company/index.aspx');
+							fixIOSSubmenu(isTouch, 'submenu1');
+						</script>
+					</li>
+				
+					<li id="submenu2">
+						<div class="hoverpadding"></div>
+						<ul>
+							
+									<li><a href="https://www.teamviewer.com/en/licensing/index.aspx" class=" submenuFirst">Overview</a></li>
+								
+									<li><a href="/en/licensing/update.aspx">Existing customers</a></li>
+								
+									<li class="submenuLast"><a href="/en/licensing/requestquote.aspx" class=" submenuLast">Request quote</a></li>
+								
+						</ul>
+						<a id="mainmenu2" aria-haspopup="true" class=''>Buy </a>
+						<script type="text/javascript">
+							linkMainmenu(isTouch, 'mainmenu2', 'https://www.teamviewer.com/en/licensing/index.aspx');
+							fixIOSSubmenu(isTouch, 'submenu2');
+						</script>
+					</li>
+				
+					<li id="submenu3">
+						<div class="hoverpadding"></div>
+						<ul>
+							
+									<li><a href="https://www.teamviewer.com/en/help/index.aspx" class=" submenuFirst">FAQ</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/help/video.aspx">Videos</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/help/firststeps.aspx">Documents</a></li>
+								
+									<li class="submenuLast"><a href="https://www.teamviewer.com/en/help/createticket.aspx" class=" submenuLast">Submit a ticket</a></li>
+								
+						</ul>
+						<a id="mainmenu3" aria-haspopup="true" class=''>Support </a>
+						<script type="text/javascript">
+							linkMainmenu(isTouch, 'mainmenu3', 'https://www.teamviewer.com/en/help/index.aspx');
+							fixIOSSubmenu(isTouch, 'submenu3');
+						</script>
+					</li>
+				
+					<li id="submenu4">
+						<div class="hoverpadding"></div>
+						<ul>
+							
+									<li><a href="https://www.teamviewer.com/en/download/index.aspx" class=" submenuFirst">All downloads</a></li>
+								
+									<li><a href="/en/download/customdesign.aspx">Integrate your logo</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/download/mobile.aspx">Mobile</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/download/dyngate.aspx">Previous versions</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/download/changelog/index.aspx">Changelog</a></li>
+								
+									<li class="submenuLast"><a href="https://www.teamviewer.com/en/download/currentversion.aspx" class=" newBadgeAnchor submenuLast">Version 11 <span class="newBadge"></span></a></li>
+								
+						</ul>
+						<a id="mainmenu4" aria-haspopup="true" class=''>Download </a>
+						<script type="text/javascript">
+							linkMainmenu(isTouch, 'mainmenu4', 'https://www.teamviewer.com/en/download/index.aspx');
+							fixIOSSubmenu(isTouch, 'submenu4');
+						</script>
+					</li>
+				
+					<li id="submenu5">
+						<div class="hoverpadding"></div>
+						<ul>
+							
+									<li><a href="https://www.teamviewer.com/en/index.aspx" class=" submenuActive submenuFirst">Home</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/products/remotecontrol.aspx">Remote Control</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/products/online-meeting.aspx">Meeting</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/products/mobile-device-support.aspx">Mobile Device Support</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/products/management-console.aspx">Management Console</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/products/integrations.aspx">Integrations</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/products/screenshots.aspx">Screenshots</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/company/references.aspx">References</a></li>
+								
+									<li><a href="https://www.teamviewer.com/en/products/security.aspx">Security</a></li>
+								
+									<li><span class="groupHeader">More Products</span></li>
+								
+									<li><a href="https://www.teamviewer.com/en/products/itbrain.aspx" target="_blank">ITbrain™</a></li>
+								
+									<li class="submenuLast"><a href="https://www.airbackup.com/" class=" submenuLast" target="_blank">airbackup</a></li>
+								
+						</ul>
+						<a id="mainmenu5" aria-haspopup="true" class='mainmenuActive'>Take a Tour </a>
+						<script type="text/javascript">
+							linkMainmenu(isTouch, 'mainmenu5', 'https://www.teamviewer.com/en/index.aspx');
+							fixIOSSubmenu(isTouch, 'submenu5');
+						</script>
+					</li>
+				
+						</ul>
+					</div>
+				
+			
+
+		</div>
+	</div>
+</div>
+
+<div id="header-1">
+	<div class="cssGradient"></div>
+	<div id="header-2">
+		<div id="bgHeader"></div>
+		<div id="headContent">
+			<h1>
+TeamViewer - the All-In-One Software <br/>for Remote Support and Online Meetings
+
+			</h1>
+			<div id="headContentDescription">
+
+				<p>Remote control any computer or Mac over the internet within seconds or use TeamViewer for online meetings. Find out why TeamViewer has been <b>activated on more than a billion devices</b>.</p>
+
+				<div id="downloadButtonGreen">
+					<div id="shadowBox"><!-- "textshadow" to improve readability -->
+						<span id="downloadTextShadow" class="download-text">Download<br /><span class="download-text-small">Free for private use</span></span>
+					</div>
+					<a id="dlFull" style="text-decoration:none;" href="http://download.teamviewer.com/download/TeamViewer_Setup_en.exe" onclick="return CountDownload(window.location.pathname, this.pathname);">
+						<span id="experimentTrackingOriginalButton" class="download-text">Download<br /><span class="download-text-small">Free for private use</span></span>
+						<!--[if lt IE 7]>
+							<img src="/images/headerright/download-closed-empty.png" alt="green button" />
+						<![endif]-->
+					</a>
+					<div class="win10Index">
+						<img src="../images/sicherheit/windows10-compatible_en.png" alt="Windows 10 compatibility logo for TeamViewer"  title="TeamViewer fully supports Windows 10" />
+					</div>
+				</div>
+				<div id="additionalDownloads">
+					<div class="additionalLink" id="linkQS">
+						<div class="arrowSmall"></div><a id="dlQS" href="http://download.teamviewer.com/download/TeamViewerQS_en.exe" onclick="return CountDownload(window.location.pathname, this.pathname);">Join Remote Control Session</a>
+					</div>
+					<div class="additionalLink" id="linkQJ">
+						<div class="arrowSmall"></div><a id="dlQJ" href="http://download.teamviewer.com/download/TeamViewerQJ_en.exe" onclick="return CountDownload(window.location.pathname, this.pathname);">Join Online Meeting</a>
+					</div>
+					
+					<!--final start--><div class="additionalLink">
+						<b>New TeamViewer 11 is available!</b> <a href="download/currentversion.aspx">More information</a>
+					</div>
+					<div class="additionalLink">
+						You will find TeamViewer 10 under <a style="font-weight:normal;" href="download/dyngate.aspx">Previous versions</a>
+					</div><!--final end-->
+				</div>
+				<script type="text/javascript">
+					SetDownloadUrls("http://download.teamviewer.com/download/TeamViewerQS.dmg",
+						"http://download.teamviewer.com/download/TeamViewerQJ.dmg",
+						"http://download.teamviewer.com/download/TeamViewer.dmg",
+						"http://download.teamviewer.com/download/teamviewer_qs.tar.gz");
+				</script>
+				<br />
+			</div>
+		</div>
+		<div id="headContentVideo">
+			<a id="headerVideo" href="//www.youtube.com/embed/MAcJ4SDxhDo?rel=0&amp;wmode=transparent&amp;cc_lang_pref=en&fs=1&amp;cc_load_policy=1" onclick="return hs.htmlExpand(this, videoPopupLicensingOverview)">
+				<img src="../images/video/thumbnails/1_billion_video_image.jpg" alt="TeamViewer" />
+				<span class="play"></span>
+			</a>
+			<div class='highslide-caption'><div class="closebutton" onclick="hs.close()" title="Close"></div></div>
+		</div>
+	</div>
+	<div id="shadow-top">&nbsp;</div>
+	<div id="shadow-bottom">&nbsp;</div>
+</div>
+<div id="content-1">
+	<div class="cssGradient"></div>
+	
+	<div id="content-2">
+		<div id="startpageBottomImage"></div>
+		<div style="clear:both;"></div>
+		<div id="systemLogoBlock">
+			<span class="systemLogo"><a href="download/windows.aspx"><img src="/images/icons/logo-windows8.png" alt="Windows icon" width="46" height="51" title="TeamViewer for Windows" /></a></span>
+			<span class="systemLogo"><a href="download/mac.aspx"><img src="/images/icons/logo-mac.png" alt="Mac icon" width="46" height="51" title="TeamViewer for Mac" /></a></span>
+			<span class="systemLogo"><a href="download/linux.aspx"><img src="/images/icons/logo-linux.png" alt="Linux icon" width="46" height="51" title="TeamViewer for Linux" /></a></span>
+			<span class="systemLogo"><a href="https://chrome.google.com/webstore/detail/teamviewer/oooiobdokpcfdlahlmcddobejikcmkfo" target="_blank"><img src="/images/icons/logo-chrome.png" alt="Chrome OS icon" width="46" height="51" title="TeamViewer for Chrome OS" /></a></span>
+			<span class="systemLogo"><a href="download/mobile-app.aspx"><img src="/images/icons/logo-iphone.png" alt="iPhone / iPad / Android / Windows Phone 8 icon" width="46" height="51" title="TeamViewer for iPhone / iPad / Android / Windows Phone 8" /></a></span>
+			
+		</div>
+		<div id="startpageIDCContainer">
+			<div id="startpageIDCContainerLeft">
+				<img src="../images/IDC-Logo.png" alt="IDC Logo" title="IDC - Analyze the future"/>
+			</div>
+			<div id="startpageIDCContainerRight">
+				<h2>TeamViewer– Number 1 in Market Share for Clientless Remote Support</h2>
+				<p>“TeamViewer has taken a more holistic approach in its offering by providing a broad spectrum of capabilities that appeal to service providers (SPs) and SMBs.”</p>
+				<a target="_blank" href="https://pages.teamviewer.com/en-idc-teamviewer/">More information</a>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+
+		<div class="useCaseOuter">
+			<div class="useCaseInner">
+				<div id="bgControlIcon"></div>
+				<h2>Remote Support and Remote Access</h2>
+				<div class="listItem"><div class="bulletBlueArrows"></div><b>Remote Support</b> – no need for any installation on the client side</div>
+				<div class="listItem"><div class="bulletBlueArrows"></div><b>Remote Administration</b> – 24/7 access to remote computers and servers</div>
+				<div class="listItem"><div class="bulletBlueArrows"></div><b>Remote Access</b> – access your data and applications – anytime, anywhere</div>
+				<div class="listItem"><div class="bulletBlueArrows"></div><b>Home Office</b> – access your office computer from home</div>
+				<br /><a href="products/remotecontrol.aspx">more information</a>
+			</div>
+		</div>
+		<div class="useCaseOuter useCaseSpacer">
+			<div class="useCaseInner">
+				<div id="bgMeetingIcon"></div>
+				<h2>Online Meeting and Online Presentation</h2>
+				<div class="listItem"><div class="bulletBlueArrows"></div><b>Online Meetings</b> – have up to 25 participants</div>
+				<div class="listItem"><div class="bulletBlueArrows"></div><b>Online Presentation</b> – boost your sales potential</div>
+				<div class="listItem"><div class="bulletBlueArrows"></div><b>Training Session</b> – cut costs by conducting training online</div>
+				<div class="listItem"><div class="bulletBlueArrows"></div><b>Online Teamwork</b> – collaborate online on documents in real-time</div>
+				<br /><a href="http://meeting.teamviewer.com" target="_blank">more information</a>
+			</div>
+		</div>
+
+		<div style="clear:both"></div>
+		<link href="/images/highslide/highslide.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="/images/highslide/highslide-ie6.css" />
+<![endif]-->
+<script type="text/javascript" src="/images/highslide/highslide-cb.js"></script>
+<script type="text/javascript">
+
+		var feedbackPopup =
+			{
+				wrapperClassName: 'HiddenHeader HiddenFooter',
+				objectType: 'iframe',
+				dimmingOpacity: 0.25, 
+				align: 'center',
+				width: 400,
+				height: 315
+			};
+		
+		hs.graphicsDir = '/images/highslide/graphics/';
+		hs.outlineType = 'rounded-white';
+		hs.showCredits = false;
+		hs.loadingOpacity = 0;
+</script>
+
+<style type="text/css">
+		.HiddenHeader .highslide-header 
+		{
+			display: none;
+		}
+
+		.HiddenFooter .highslide-footer
+		{
+			display: none;
+		}
+</style>
+
+<div class="footer">
+	<div style="vertical-align:text-bottom;">
+		<bdo dir="ltr">© 2015 TeamViewer. All rights reserved.</bdo><span class="divider">|</span>		
+		<a href="https://www.teamviewer.com/en/company/index.aspx">Contact</a><span class="divider">|</span>
+		<a href="https://www.teamviewer.com/en/company/index.aspx#imprint">Imprint</a><span class="divider">|</span>
+		<a href="https://www.teamviewer.com/en/company/eula.aspx">EULA</a><span class="divider">|</span>
+		<a href="https://www.teamviewer.com/en/help/uninstall.aspx">Uninstall</a><span class="divider">|</span>
+		<a href="/en/company/feedback.aspx?page=/en/index.aspx" id="formFeedback" onclick="return hs.htmlExpand(this, feedbackPopup)" class="highslide">Feedback</a><span class="divider">|</span>
+		<a href="https://login.teamviewer.com" target="_blank">Web Login</a><span class="divider">|</span>
+		<a href="http://integrate.teamviewer.com/develop/" target="_blank">API</a>
+		
+	</div>
+</div>
+
+<script type="text/javascript">
+    adroll_adv_id = "NEAMHLE7CZDEPLCZPSG3DV";
+    adroll_pix_id = "FJJGRXAPEVB6BJZASPB3W3";
+    (function () {
+        var oldonload = window.onload;
+        window.onload = function () {
+            __adroll_loaded = true;
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+             document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+            if (oldonload) { oldonload() }
+        };
+    }());
+</script>
+
+	</div>
+</div>
+
+
+</div>
+
+
+	<script type="text/javascript" src="../images/InfoBar.js?v2"></script>
+
+
+	<script type="text/javascript">
+		var videoPopupLicensingOverview = {
+			wrapperClassName: 'HiddenHeader HiddenFooter video',
+			objectType: 'iframe',
+			align: 'center',
+			width: 896,
+			height: 504,
+			allowSizeReduction: false,
+			captionOverlay: { position: 'top right' },
+			dimmingOpacity: '0.75',
+			transitions: ['fade'],
+			expandCursor: null,
+			objectLoadTime: 'after',
+			preserveContent: false
+		};
+	</script>
+
+</body>
+</html>

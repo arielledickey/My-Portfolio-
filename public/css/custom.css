@@ -1,0 +1,43 @@
+body {
+	padding-top: 50px;
+	color: #959595;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+
+}
+.jumbotron .container {
+        text-align: center;
+        position: relative;
+   background: #000 url("../pic4.jpg") center center;
+   width: 100%;
+   height: 500px;
+   background-size: cover;
+   overflow:auto;
+        font-family: inherit;
+}
+	
+.feature {
+	background-color: yellowgreen;
+	color: white;
+	}
+	
+.article-intro {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background-color: goldenrod;
+    color: black;
+}
+    
+.footer-blurb-item {
+    padding: 30px;
+    }
+ 
+.small-print {
+	background-color: #fff;
+	padding: 30px 0;
+}
